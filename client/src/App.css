@@ -1,0 +1,124 @@
+/* font-family: 'Roboto', sans-serif; */
+/* ------------------NAVBAR-------------------- */
+body {
+  /* font-family: "Roboto", sans-serif; */
+  background-image: linear-gradient(120deg, #a1fdbd 0%, #08f54f 100%);
+}
+.nav-item {
+  margin-right: 10px;
+}
+.fa-react {
+  /* color: aqua;
+  border: 2px solid black; */
+}
+.nav-link:hover {
+  /* color: rgb(66, 138, 255) !important; */
+  /* text-decoration: underline rgb(66, 138, 255) solid !important; */
+  /* color: rgb(40, 146, 245) !important; */
+  /* background-color: rgb(228, 228, 228); */
+  text-decoration: underline solid !important;
+  /* transition: 0.5s !important; */
+}
+
+/* ---------------SIGNUP/ REGISTER PAGE-------------------- */
+.signup_div {
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px gray;
+  margin: 50px auto;
+  width: 70%;
+  border-radius: 10px;
+}
+.signup_form_div {
+  margin-left: 10%;
+  width: 70%;
+  padding-bottom: 10%;
+}
+
+/* -------------------SIGNIN/LOGIN-------------------- */
+.manimg_signin {
+  margin-top: 50px;
+}
+.signin_div {
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px gray;
+  margin: 70px auto;
+  width: 70%;
+  border-radius: 10px;
+}
+.signin_form_div {
+  margin-left: 10%;
+  width: 70%;
+  padding-bottom: 10%;
+}
+
+/* --------------CONTACT PAGE-------------- */
+.contact_small_div {
+  background-color: white;
+  box-shadow: 2px 2px 5px 2px gray;
+  width: 80%;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.contact_row_div {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .contact_row_div {
+    display: block;
+    margin-left: 50px;
+  }
+  .contact_small_div {
+    margin-bottom: 10px;
+  }
+}
+.contact_div {
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px gray;
+  margin: -10px auto;
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.contact_smallcard_text {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 0.1%;
+}
+.fa-mobile-alt,
+.fa-envelope,
+.fa-map-marked-alt {
+  padding: 3%;
+}
+.contact_smallcard_title {
+}
+.contact_smallcard_content {
+  color: gray;
+}
+.contact_register_btn {
+  padding: "3%";
+  margin-left: 5%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+/* -------------HOME PAGE-------------- */
+.home_div {
+  text-align: center;
+  margin: 200px auto;
+}
+/* -------------ABOUT PAGE--------------- */
+.about_div {
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px gray;
+  margin: 70px auto;
+  width: 70%;
+  border-radius: 10px;
+}
+.about_inner_div {
+  padding: 5%;
+}
+.about_img {
+  width: 100%;
+}
